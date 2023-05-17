@@ -1,0 +1,49 @@
+﻿BloomTech Support (5/15/2023, 7:15:23 PM): Hi Matthew!  We look forward to working with you and will be with you momentarily 
+BloomTech Support (5/15/2023, 7:15:47 PM): Hello Matthew.  My name is Chris and I am a Web Learner Assistant.  How can I help you today? 
+Matthew (5/15/2023, 7:16:02 PM): Hello 
+Matthew (5/15/2023, 7:16:08 PM): Im a web dev student 
+Matthew (5/15/2023, 7:16:19 PM): currently working on the sprint 3 challenge 
+BloomTech Support (5/15/2023, 7:16:36 PM): Ok.  What seems to be the issue? 
+Matthew (5/15/2023, 7:16:41 PM): for the header, nav section 
+Matthew (5/15/2023, 7:17:00 PM): <header>
+        <div>
+          <h1><a href="index.html">BLOOMTECH BAR AND GRILL</a></h1>
+
+          <!-- nav -->
+          <nav>
+            <a href="menu.html">Menu</a>
+            <a href="#">Reservations</a>
+            <a href="#">Special Offers</a>
+            <a href="#">Contact</a>
+          </nav>
+          <div>
+            <a class="fa-brands fa-facebook"></a>
+            <a class="fa-brands fa-twitter"></a>
+            <a class="fa-brands fa-instagram"></a>
+          </div>
+        </div>
+      </header> 
+Matthew (5/15/2023, 7:17:23 PM): this is my current code but the tests in the terminal is saying my code is incorrect 
+Matthew (5/15/2023, 7:17:35 PM): renders the correct four links in header nav links div, Review how to create anchor tags 
+Matthew (5/15/2023, 7:17:45 PM): this is what it is saying is wrong 
+Matthew (5/15/2023, 7:17:59 PM): any pointers 
+Matthew (5/15/2023, 7:18:00 PM): ? 
+BloomTech Support (5/15/2023, 7:18:30 PM): Ok.  Let me dbl check but the structure that I think it is looking for is header > nav > div > a tags 
+BloomTech Support (5/15/2023, 7:19:02 PM): Right now yours is header > div > nav >a tags. 
+BloomTech Support (5/15/2023, 7:19:37 PM): The reason being is that the social icon a tags are considered navigation elements and should be included in the nav element. 
+Matthew (5/15/2023, 7:19:40 PM): okay. so essentially i just need to reorganize it. Correct? 
+BloomTech Support (5/15/2023, 7:19:46 PM): Yep 
+Matthew (5/15/2023, 7:20:07 PM): so both the main nav and social media nav should all be in 1? 
+BloomTech Support (5/15/2023, 7:20:36 PM): Yep.  and then only include the page navigation tags in the div. 
+BloomTech Support (5/15/2023, 7:20:41 PM): Something like this. 
+BloomTech Support (5/15/2023, 7:22:09 PM): <header>
+  <nav>
+    <div>
+      <a>Home</a>
+      <a>Menu</a>
+    </div>
+  <a>Social 1</a>
+  <a>Social 2</a>
+</nav>
+</header> 
+Matthew (5/15/2023, 7:22:17 PM): okay. will do. Thank you for your help :) 
